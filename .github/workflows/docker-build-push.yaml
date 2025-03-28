@@ -31,4 +31,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: golu009/fastapi-CI:${{ env.SHORT_SHA }},golu009/fastapi-CI:latest
+        tags: golu009/fastapi-continuous:${{ env.SHORT_SHA }},golu009/fastapi-continuous:latest
