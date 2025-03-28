@@ -18,7 +18,7 @@ with open("scaler.pkl", "rb") as scaler_file:
 # -----------------------------
 app = FastAPI(
     title="Diabetes Prediction API",
-    description="A simple API that predicts whether a person has diabetes using a trained ML model.",
+    description="A simple API that predicts whether a person has diabetes using a trained ML model Random Forest.",
     version="1.0"
 )
 
